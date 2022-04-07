@@ -1,5 +1,5 @@
 {
-  "name": "polyfill-object.fromentries",
+  "name": "js-polyfill-object.fromentries",
   "version": "1.0.0",
   "description": "Object.fromEntries() polyfill",
   "keywords": [

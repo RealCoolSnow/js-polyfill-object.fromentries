@@ -8,13 +8,13 @@
     "fromentries",
     "object.fromentries"
   ],
-  "homepage": "https://github.com/RealCoolSnow/js-polyfill-object.fromentries",
+  "homepage": "https://github.com/RealCoolSnow/js-polyfill-object.fromentries/blob/main/README.md",
   "bugs": {
     "url": "https://github.com/RealCoolSnow/js-polyfill-object.fromentries/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://gitlab.com/qafir/js-polyfill-object.fromentries.git"
+    "url": "git+https://github.com/RealCoolSnow/js-polyfill-object.fromentries.git"
   },
   "license": "MIT",
   "author": "CoolSnow(coolsnow2020@gmail.com)",

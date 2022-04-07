@@ -21,5 +21,16 @@ test('Object.fromEntries()', () => {
 
 test('Object.fromEntries() edge cases', () => {
   expect(Object.fromEntries([])).toEqual({});
-  expect(() => { Object.fromEntries(); }).toThrow();
+  expect(() => {
+    Object.fromEntries();
+  }).toThrow();
+});
+
+test('Object.fromEntries() map cases', () => {
+  const entries = new Map([
+    ['foo', 'bar'],
+    ['baz', 42],
+  ]);
+  const myObject = { foo: 'bar', baz: 42 };
+  expect(Object.fromEntries(entries)).toEqual(myObject);
 });

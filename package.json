@@ -21,7 +21,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "npx eslint *.js",
-    "pub": "yarn build && yarn publish",
+    "pub": "yarn publish",
     "sort": "npx sort-package-json \"package.json\"",
     "test": "npx jest"
   },

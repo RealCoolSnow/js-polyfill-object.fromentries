@@ -1,0 +1,34 @@
+{
+  "name": "polyfill-object.fromentries",
+  "version": "1.0.0",
+  "description": "Object.fromEntries() polyfill",
+  "keywords": [
+    "polyfill",
+    "object",
+    "fromentries",
+    "object.fromentries"
+  ],
+  "homepage": "https://github.com/RealCoolSnow/js-polyfill-object.fromentries",
+  "bugs": {
+    "url": "https://github.com/RealCoolSnow/js-polyfill-object.fromentries/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://gitlab.com/qafir/js-polyfill-object.fromentries.git"
+  },
+  "license": "MIT",
+  "author": "CoolSnow(coolsnow2020@gmail.com)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint *.js",
+    "pub": "yarn build && yarn publish",
+    "sort": "npx sort-package-json \"package.json\"",
+    "test": "npx jest"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  }
+}
